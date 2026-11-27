@@ -1,5 +1,5 @@
 {
- "updated": "22:08 27/11",
+ "updated": "06:11 28/11",
  "usage": {
   "week_pct": 2,
   "week_label": "Thoải mái",
@@ -13,26 +13,26 @@
   {
    "name": "To-do list sáng",
    "state": "ok",
-   "last": "07:09",
-   "next": "07:07 mai"
+   "last": "27/11 07:09",
+   "next": "07:07"
   },
   {
    "name": "QC NavaLand hằng ngày",
    "state": "ok",
    "last": "--",
-   "next": "07:45 mai"
+   "next": "07:45"
   },
   {
    "name": "Bản tin thị trường cà phê",
    "state": "ok",
-   "last": "08:10",
-   "next": "08:05 mai"
+   "last": "27/11 08:10",
+   "next": "08:05"
   },
   {
    "name": "Theo dõi phòng trống Đội Cấn",
    "state": "ok",
-   "last": "08:12",
-   "next": "08:08 mai"
+   "last": "27/11 08:12",
+   "next": "08:08"
   }
  ],
  "sessions": {
@@ -61,22 +61,18 @@
  "tasks_more": 0,
  "today": [
   {
-   "time": "12:30",
-   "t": "NEU T3: Rà 10 bài luyện tập + diễn đàn PSD"
+   "time": "20:00",
+   "t": "Vào học Duolingo"
   },
   {
    "time": "20:00",
-   "t": "Vào học Duolingo"
+   "t": "NEU tuần 3: 2 bài luyện tập + diễn đàn PSD"
   }
  ],
  "tomorrow": [
   {
    "time": "20:00",
-   "t": "Duolingo"
-  },
-  {
-   "time": "20:00",
-   "t": "NEU tuần 3: 3 bài + diễn đàn PSD"
+   "t": "Vào học Duolingo"
   }
  ],
  "weather": {
