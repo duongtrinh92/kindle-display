@@ -1,28 +1,81 @@
 {
-  "updated": "15:31 27/11",
-  "usage": {"week_pct": 2, "week_label": "Thoải mái", "week_reset": "đặt lại T4 07:00", "week_elapsed_pct": 100,
-            "session_pct": 10, "session_reset": "đặt lại CN 20:10", "fable_pct": null},
-  "claude_jobs": [
-    {"name": "Kiểm tra chính sách YouTube", "state": "ok", "last": "07:06", "next": "07:05 mai"},
-    {"name": "Theo dõi phòng trống Đội Cấn", "state": "ok", "last": "08:08", "next": "08:08 mai"},
-    {"name": "Bản tin thị trường cà phê", "state": "ok", "last": "08:06", "next": "08:05 mai"},
-    {"name": "To-do list sáng", "state": "ok", "last": "07:08", "next": "07:07 mai"}
-  ],
-  "sessions": {"running": 0, "waiting": 0},
-  "unread": [
-    {"title": "To-do list ngày 26/11/2026", "from": "Claude · to-do"},
-    {"title": "[Test] Theo dõi phòng trống 35 Đội Cấn", "from": "26/11"},
-    {"title": "To-do list ngày 23/11/2026", "from": "Claude · to-do"},
-    {"title": "To-do list ngày 21/11/2026", "from": "Claude · to-do"}
-  ],
-  "tasks": [
-    {"t": "1021 cafelazada Đăng 0711", "tag": "Quá hạn"},
-    {"t": "Đọc Zhihu: Thời giàu càng giàu, người...", "tag": "Quá hạn"},
-    {"t": "Đọc Zhihu: Bỏ 4,3 triệu tệ mở 4 cửa hàng", "tag": "Hôm nay"},
-    {"t": "Gọi nhà cung cấp", "tag": "15/11"}
-  ],
-  "tasks_more": 1,
-  "today": [{"time": "12:30", "t": "NEU T3: Rà 10 bài luyện tập + diễn đàn PSD"}, {"time": "20:00", "t": "Vào học Duolingo"}],
-  "tomorrow": [{"time": "20:00", "t": "Duolingo"}, {"time": "20:00", "t": "NEU tuần 3: 3 bài + diễn đàn PSD"}],
-  "weather": {"temp": "--", "desc": "chưa có dữ liệu", "aqi": "--"}
+ "updated": "17:08 27/11",
+ "usage": {
+  "week_pct": 2,
+  "week_label": "Thoải mái",
+  "week_reset": "đặt lại T4 07:00",
+  "week_elapsed_pct": 100,
+  "session_pct": 10,
+  "session_reset": "đặt lại CN 20:10",
+  "fable_pct": null
+ },
+ "claude_jobs": [
+  {
+   "name": "To-do list sáng",
+   "state": "ok",
+   "last": "07:09",
+   "next": "07:07 mai"
+  },
+  {
+   "name": "Bản tin thị trường cà phê",
+   "state": "ok",
+   "last": "08:10",
+   "next": "08:05 mai"
+  },
+  {
+   "name": "Theo dõi phòng trống Đội Cấn",
+   "state": "ok",
+   "last": "08:12",
+   "next": "08:08 mai"
+  }
+ ],
+ "sessions": {
+  "running": 0,
+  "waiting": 0
+ },
+ "unread": [
+  {
+   "title": "To-do list ngày 26/11/2026",
+   "from": "Claude · to-do"
+  },
+  {
+   "title": "[Test] Theo dõi phòng trống 35 Đội Cấn",
+   "from": "26/11"
+  },
+  {
+   "title": "To-do list ngày 23/11/2026",
+   "from": "Claude · to-do"
+  },
+  {
+   "title": "To-do list ngày 21/11/2026",
+   "from": "Claude · to-do"
+  }
+ ],
+ "tasks": [],
+ "tasks_more": 0,
+ "today": [
+  {
+   "time": "12:30",
+   "t": "NEU T3: Rà 10 bài luyện tập + diễn đàn PSD"
+  },
+  {
+   "time": "20:00",
+   "t": "Vào học Duolingo"
+  }
+ ],
+ "tomorrow": [
+  {
+   "time": "20:00",
+   "t": "Duolingo"
+  },
+  {
+   "time": "20:00",
+   "t": "NEU tuần 3: 3 bài + diễn đàn PSD"
+  }
+ ],
+ "weather": {
+  "temp": "--",
+  "desc": "chưa có dữ liệu",
+  "aqi": "--"
+ }
 }
