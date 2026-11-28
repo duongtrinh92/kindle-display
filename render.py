@@ -25,7 +25,6 @@ def head(y, title, right=""):
 u = data["usage"]
 d.text((M, 34), "Claude", font=F("Black", 64), fill=0)
 rtext(W - M, 34, f"CẬP NHẬT · {data['updated']}", F("Bold", 28))
-wx = data["weather"]; rtext(W - M, 74, f"Trời {wx['temp']} · {wx['desc']} · AQI {wx['aqi']}", F("Regular", 24), 90)
 rule(120, 6)
 d.text((M - 4, 118), f"{u['week_pct']:02d}%", font=F("Black", 230), fill=0)
 x2 = 640
@@ -42,6 +41,14 @@ d.text((x3, y), "Fable", font=F("Bold", 32), fill=0)
 fp = u["fable_pct"]; rtext(x3 + half, y - 4, "--" if fp is None else f"{fp}%", F("Black", 40))
 bar(x3, y + 50, half, 24, fp or 0); d.text((x3, y + 92), "chưa có số liệu Fable" if fp is None else "", font=F("Regular", 23), fill=110)
 y = 584
+wx = data["weather"]
+d.text((M, y - 4), f"{wx['temp']}", font=F("Black", 66), fill=0)
+tx = M + d.textlength(f"{wx['temp']}", font=F("Black", 66)) + 28
+d.text((tx, y + 4), fit(wx["desc"], F("Bold", 34), 420), font=F("Bold", 34), fill=0)
+d.text((tx, y + 46), wx.get("place", "Hà Nội"), font=F("Regular", 24), fill=110)
+rtext(W - M, y - 2, f"AQI {wx['aqi']}", F("Black", 52))
+rtext(W - M, y + 54, wx.get("aqi_label", "chất lượng không khí"), F("Regular", 24), 110)
+y += 116
 # Claude jobs
 s = data["sessions"]; jobs = data["claude_jobs"]
 bad = sum(1 for j in jobs if j["state"] != "ok")
@@ -73,10 +80,10 @@ y += 10
 col = (W - 2 * M - 30) // 2
 for i, (title, ev) in enumerate((("HÔM NAY", data["today"]), ("NGÀY MAI", data["tomorrow"]))):
     x = M + i * (col + 30); yy = y
-    d.text((x, yy), title, font=F("Bold", 26), fill=0); d.rectangle([x, yy + 38, x + col, yy + 40], fill=0); yy += 50
-    for e in ev[:2]:
-        d.text((x, yy), e["time"], font=F("Bold", 22), fill=0)
-        d.text((x + 70, yy), fit(e["t"], F("Regular", 22), col - 74), font=F("Regular", 22), fill=40); yy += 34
-    if not ev: d.text((x, yy), "Không có sự kiện", font=F("Regular", 22), fill=120)
+    d.text((x, yy), title, font=F("Bold", 30), fill=0); d.rectangle([x, yy + 42, x + col, yy + 44], fill=0); yy += 56
+    for e in ev[:3]:
+        d.text((x, yy), e["time"], font=F("Bold", 27), fill=0)
+        d.text((x + 92, yy), fit(e["t"], F("Regular", 27), col - 96), font=F("Regular", 27), fill=40); yy += 42
+    if not ev: d.text((x, yy), "Không có sự kiện", font=F("Regular", 27), fill=120)
 w = data["weather"]
 im.save(out); print("ok", out)
