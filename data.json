@@ -1,5 +1,5 @@
 {
- "updated": "06:11 28/11",
+ "updated": "07:09 28/11",
  "usage": {
   "week_pct": 2,
   "week_label": "Thoải mái",
@@ -11,13 +11,7 @@
  },
  "claude_jobs": [
   {
-   "name": "To-do list sáng",
-   "state": "ok",
-   "last": "27/11 07:09",
-   "next": "07:07"
-  },
-  {
-   "name": "QC NavaLand hằng ngày",
+   "name": "QC hằng ngày",
    "state": "ok",
    "last": "--",
    "next": "07:45"
@@ -29,10 +23,16 @@
    "next": "08:05"
   },
   {
-   "name": "Theo dõi phòng trống Đội Cấn",
+   "name": "Theo dõi phòng trống",
    "state": "ok",
    "last": "27/11 08:12",
    "next": "08:08"
+  },
+  {
+   "name": "To-do list sáng",
+   "state": "ok",
+   "last": "đang chạy",
+   "next": "mai 07:07"
   }
  ],
  "sessions": {
@@ -41,12 +41,12 @@
  },
  "unread": [
   {
-   "title": "To-do list ngày 26/11/2026",
-   "from": "Claude · to-do"
+   "title": "[Test] Theo dõi phòng trống",
+   "from": "26/11"
   },
   {
-   "title": "[Test] Theo dõi phòng trống 35 Đội Cấn",
-   "from": "26/11"
+   "title": "To-do list ngày 26/11/2026",
+   "from": "Claude · to-do"
   },
   {
    "title": "To-do list ngày 23/11/2026",
@@ -66,7 +66,7 @@
   },
   {
    "time": "20:00",
-   "t": "NEU tuần 3: 2 bài luyện tập + diễn đàn PSD"
+   "t": "Học online: bài luyện tập tuần 3"
   }
  ],
  "tomorrow": [
