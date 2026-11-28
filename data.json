@@ -1,5 +1,5 @@
 {
- "updated": "11:08 28/11",
+ "updated": "12:10 28/11",
  "usage": {
   "week_pct": 2,
   "week_label": "Thoải mái",
@@ -15,12 +15,6 @@
    "state": "ok",
    "last": "07:10",
    "next": "mai 07:07"
-  },
-  {
-   "name": "QC hằng ngày",
-   "state": "ok",
-   "last": "07:46",
-   "next": "mai 07:45"
   },
   {
    "name": "Bản tin thị trường cà phê",
